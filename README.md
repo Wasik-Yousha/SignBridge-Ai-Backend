@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/faster--whisper-1.1.0-FF6F00&logoColor=white" alt="faster-whisper" />
   <img src="https://img.shields.io/badge/Ollama-LLM-000000?logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Wasik-Yousha/SignBridge-Ai-Backend/ci.yml?branch=main&label=CI" alt="CI" />
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
 </p>
 
@@ -22,6 +23,7 @@ Python FastAPI backend for the SignBridge AI project. Accepts English text or a 
 - [API Reference](#api-reference)
 - [Project Structure](#project-structure)
 - [Development](#development)
+- [Repository Standards](#repository-standards)
 - [License](#license)
 
 ---
@@ -283,6 +285,22 @@ pip install -r requirements.txt
 cp .env.example .env          # edit as needed
 uvicorn app.main:app --reload --port 8000
 ```
+
+---
+
+## Repository Standards
+
+This repository includes baseline governance and maintenance files expected in production-facing open source projects:
+
+- `LICENSE` (MIT)
+- `CONTRIBUTING.md`
+- `SECURITY.md`
+- `CHANGELOG.md`
+- `.github/workflows/ci.yml`
+- `.github/ISSUE_TEMPLATE/*`
+- `.github/pull_request_template.md`
+
+These files improve collaboration quality, reduce onboarding time, and make project expectations explicit for contributors.
 
 ---
 
