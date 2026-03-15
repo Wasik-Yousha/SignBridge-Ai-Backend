@@ -1,0 +1,37 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ─── Virtual Environment ───
+venv/
+.venv/
+env/
+
+# ─── Environment Variables ───
+.env
+
+# ─── Temp Files ───
+temp/*
+!temp/.gitkeep
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── Whisper Models (cached locally) ───
+*.bin
+*.pt
